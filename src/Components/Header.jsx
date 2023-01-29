@@ -9,7 +9,7 @@ function Header() {
     setCurrentPage(location.pathname.slice(1))
   },[location])
   return (
-    <div className='flex direction_row justify_between'>
+    <div className='flex direction_row justify_between Header'>
         <span className='Image'>
             <img className='full_width full_height' src={Icon} alt="" />
         </span>
