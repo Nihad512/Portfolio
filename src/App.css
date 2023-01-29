@@ -1,38 +1,373 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-color: #222222;;
+}
+html{
+  scroll-behavior: smooth;
+}
+a,span{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+ul li,
+ol li{
+list-style-type: none;
+position: relative;
+float: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input,
+button,
+select{
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+cursor: pointer;
+}
+.flex{
+display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.direction_column{
+flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.direction_row{
+flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex_wrap{
+flex-wrap: wrap;
+}
+.justify_between{
+justify-content: space-between;
+}
+.justify_center{
+justify-content: center;
+}
+.full_width{
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.full_height{
+  height: 100%;
+}
+.clearfix{
+clear: both;
+}
+.center{
+  position: relative;
+  margin: 0 auto;
+  float: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0 0 20px;
+}
+.align_center{
+align-items: center;
+
+}
+.text_align{
+text-align: center;
+}
+.inline{
+  display: inline-block;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.Pagination a{
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 35px;
+/* or 194% */
+
+
+color: rgba(255, 255, 255, 0.5);
+}
+.Pagination a.Active{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+/* or 194% */
+
+
+color: #FFFFFF;
+}
+.Image{
+  width: 40px;
+  height: 40px;
+}
+.Social span:first-child a{
+  margin-left: 20px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+/* or 219% */
+
+
+color: rgba(255, 255, 255, 0.5);
+}
+.Social span:last-child{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+  
+  
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+hr{
+  width: 100%;
+  height: 2px;
+  background-color: #333333;;
+}
+.Full_picture{
+  width: 491px;
+  height: 491px;
+}
+.About > p:first-child{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+/* or 146% */
+
+
+color: rgba(255, 255, 255, 0.5);
+margin-bottom: 44px;
+}
+.About h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 35px;
+/* or 50% */
+
+
+color: #FFFFFF;
+margin-bottom: 44px;
+}
+.myInfo{
+  width: 550px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+
+
+color: #FFFFFF;
+margin-bottom: 36px;
+
+}
+.About span a{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  width: 177px;
+  height: 62px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+
+
+color: #FFFFFF;
+border: 3px solid #D5D5D5;
+border-radius: 30px;
+}
+.About span a:first-child{
+  border: 3px solid #007CED;
+  border-radius: 30px;
+  margin-right: 16px;
+}
+.About{
+  margin-left: 160px;
+}
+.flex_end{
+  align-items: flex-end;
+}
+
+.AboutMe{
+  margin-top: 100px;
+}
+.Full_picture img{
+  border-radius: 100%;
+}
+.FrontSkills{
+  height: 267px;
+  background: #252525;
+  margin-bottom: 50px;
+}
+.FrontSkills h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 35px;
+/* or 64% */
+
+
+color: #FFFFFF;
+}
+.mySkills >span p:not(:last-child){
+  margin-bottom: 22px;
+}
+.mySkills >span p:first-child{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  /* or 125% */
+  
+  
+  color: #FFFFFF;
+}
+
+.mySkills >span:first-child p:nth-child(2),
+.mySkills >span:first-child p:nth-child(4){
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 125% */
+  
+  
+  color: #FFFFFF;
+}
+.mySkills >span:first-child p:nth-child(3),
+.mySkills >span:first-child p:nth-child(5){
+  width: 541px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  
+  
+  color: rgba(255, 255, 255, 0.7);
+  
+}
+.mySkills >span{
+  width: 50%;
+}
+
+.mySkills >span label{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 125% */
+  
+  
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+progress{
+  width: 80%;
+  height: 7px;
+  border-radius: 8px;
+  border: 2px solid #222222;
+}
+progress::-webkit-progress-value{
+  background-color: #007CED;
+}
+label:first-of-type::after{
+  content: "100%";
+  display:inline-block;
+  position: relative;
+  left: 69%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* or 250% */
+
+
+color: rgba(255, 255, 255, 0.7);
+}
+label:nth-child(4)::after{
+  content: "80%";
+  display:inline-block;
+  position: relative;
+  left: 71%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* or 250% */
+
+
+color: rgba(255, 255, 255, 0.7);
+}
+label:nth-child(6)::after{
+  content: "80%";
+  display:inline-block;
+  position: relative;
+  left: 62%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* or 250% */
+
+
+color: rgba(255, 255, 255, 0.7);
+}
+label:nth-child(8)::after{
+  content: "70%";
+  display:inline-block;
+  position: relative;
+  left: 67%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* or 250% */
+
+
+color: rgba(255, 255, 255, 0.7);
 }
