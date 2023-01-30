@@ -10,7 +10,7 @@ function Contact() {
      <div className='flex align_center FrontSkills'>
     <h1>Contact</h1>
     </div>
-    <div className="flex direction_row">
+    <div className="flex direction_row parent">
     <span className='flex direction_column  details '>
      <p className='indicator'>+48-513-993-153</p>
      <p className='explaining'>Fahradit klasický smysluplný text vhodnou bezvýznamovo</p>

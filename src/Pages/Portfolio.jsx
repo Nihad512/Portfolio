@@ -43,7 +43,7 @@ function Portfolio() {
         <Link key={websites.id} className="fl " to={`${websites.data.Website_link}`} >
         <img className='full_width full_height' src={`${websites.data.Website_photo}`} alt="Photo of my Website" />
         </Link> 
-      ))  : "Unfortunately there is no work that i can show to you"
+      ))  : ""
     }
      
     </span> 
