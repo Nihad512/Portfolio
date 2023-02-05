@@ -4,19 +4,19 @@ function FrontSkills() {
   return (
     <div className='flex direction_column'>
     <div className='flex align_center FrontSkills'>
-    <h1>Front-end Skills</h1>
+    <h1>Programming Skills</h1>
     </div>
     <div className='flex justify_between mySkills'>
     <span className='flex direction_column generalCode '>
       <p>What are my Skills?</p>
      <p>Web Development</p>
-     <p>Je obecně známou věcí, že člověk bývá při zkoumání grafického návrhu rozptylován okolním textem, pokud mu dává nějaký smysl. Úkolem Lorem Ipsum je pak nahradit klasický smysluplný text vhodnou bezvýznamovou alternativou
+     <p>Although i Also know back end Languages such as C# and PHP currently my Main Job is Front end web development
 </p>
      <p>Software Engineering</p>
-     <p>Je obecně známou věcí, že člověk bývá při zkoumání grafického návrhu rozptylován okolním textem, pokud mu dává nějaký smysl. Úkolem Lorem Ipsum je pak nahradit klasický smysluplný text vhodnou bezvýznamovou alternativou
+     <p>I have been developing Softwares since last year in C# and if you want to see my skills you can access my projects in Github
 </p>
 <p>Database</p>
-     <p>Je obecně známou věcí, že člověk bývá při zkoumání grafického návrhu rozptylován okolním textem, pokud mu dává nějaký smysl. Úkolem Lorem Ipsum je pak nahradit klasický smysluplný text vhodnou bezvýznamovou alternativou
+<p> I have been Working on both relational and noSQL databases since last year although i dont have any professional experiance i have been developing databases for my projects on my own
 </p>
     </span>
     <span className='flex direction_column'>
