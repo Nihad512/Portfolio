@@ -15,7 +15,7 @@ function Header() {
         </span>
         <span className='flex  direction_row Pagination' >
         <Link to="/" className={`${currentPage===''?'Active':''}`}   >About Me</Link>
-        <Link to="/FrontSkills" className={`${currentPage==='FrontSkills'?'Active':''}`} >Programmong Skills</Link>
+        <Link to="/FrontSkills" className={`${currentPage==='FrontSkills'?'Active':''}`} >Programming Skills</Link>
         <Link to="/Skills" className={`${currentPage==='Skills'?'Active':''}`} >Skills</Link>
         <Link to="/Portfolio" className={`${currentPage==='Portfolio'?'Active':''}`} >Portfolio</Link>
         <Link to="/Contact" className={`${currentPage==='Contact'?'Active':''}`} >Contact</Link>
