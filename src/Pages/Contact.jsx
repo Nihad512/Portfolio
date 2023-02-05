@@ -13,9 +13,9 @@ function Contact() {
     <div className="flex direction_row parent">
     <span className='flex direction_column  details '>
      <p className='indicator'>+48-513-993-153</p>
-     <p className='explaining'>Fahradit klasický smysluplný text vhodnou bezvýznamovo</p>
+     <p className='explaining'>Phone numberr</p>
      <p className='indicator'>Poland</p>
-     <p className='explaining'>Fahradit klasický smysluplný text vhodnou bezvýznamovo</p>
+     <p className='explaining'>Country of Residense</p>
      <p className='indicator'>babayevnihad139@gmail.com</p>
 
     </span>
